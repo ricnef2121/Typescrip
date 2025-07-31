@@ -39,3 +39,12 @@ let responseB : ResponseTypeService;
 let responseC : ResponseTypeService;
 
 reponseA?.toString().concat("test");
+
+//type assertions
+// menans converting one type to another
+let response6: any = "Hola";
+let response7: string = response6 as string;
+
+let num: any = "";
+let num2 = <number>num; // This is an alternative syntax for type assertion
+num2.toFixed(2); // This will work if num is a number, otherwise it will throw an error
