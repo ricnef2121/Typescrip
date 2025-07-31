@@ -25,3 +25,17 @@ if(response2){
 // null and undefined to represent absence of value
 let response3 = null;
 let response4 = undefined;
+
+
+// combine types
+let response5: string | undefined;
+let mixed: string | number = "Hello"; 
+
+// Custom types
+type ResponseTypeService  =  number | undefined;
+
+let reponseA : ResponseTypeService ;
+let responseB : ResponseTypeService;
+let responseC : ResponseTypeService;
+
+reponseA?.toString().concat("test");
