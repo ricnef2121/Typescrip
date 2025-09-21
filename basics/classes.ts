@@ -11,7 +11,7 @@ class Animal {
 }
 
 class Cat extends Animal {
-    type: "Mestizo"
+    type: string = "Mestizo"
 }
 
 const myAnimal = new Animal();
