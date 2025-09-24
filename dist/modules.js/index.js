@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// import { PI, generateid } from "./utils.module";
+// import { User as Person } from "./utils.module";
+var Utils = require("./utils.module");
+// const myNumber = 10 * PI;
+var myNumber = 10 * Utils.PI;
+// const myUser: Person = { id: generateid(), name: "Ric" };
+var myUser = { id: Utils.generateid(), name: "Ric" };
+console.log(myUser);
